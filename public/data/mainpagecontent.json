@@ -1,0 +1,60 @@
+{
+  "nametext": [
+    {
+      "summary": "Writer, User researcher, Entrepreneur"
+    }
+  ],
+
+  "featured": [
+    {
+      "title": "India’s millennials have been hit hard by the Covid recession",
+      "summary": "An unemployment crisis is crushing the country’s growth. Last August, Indore, a bustling city of two million people in India’s Madhya Pradesh state, earned the title of the country’s cleanest city for the fourth consecutive year...",
+      "link": "https://www.newstatesman.com/world/asia/2021/03/india-s-millennials-have-been-hit-hard-covid-recession"
+    }
+  ],
+
+  "about": [
+    {
+      "summary": "I am a user researcher and the author of What Millennials Want (Penguin Random House), an intimate biography of Indian millennials, the world’s single-largest demographic group. \nI traveled more than 30,000 kilometers across 13 Indian states to interview more than 900 millennials, educators, business leaders, and policymakers to investigate the economic aspirations, social views, and political attitudes of young India. \nI work on building technology products for emerging markets and have contributed op-eds to The Washington Post, New Statesman, The Times of India, Mint, and The Print, and have been featured in the Financial Times and The Guardian."
+    }
+  ],
+
+  "articles": [
+    {
+      "id": "hithardbycovid",
+      "title": "India’s millennials have been hit hard by the Covid recession",
+      "summary": "An unemployment crisis is crushing the country’s growth. Last August, Indore, a bustling city of two million people in India’s Madhya Pradesh state, earned the title of the country’s cleanest city for the fourth consecutive year...",
+      "link": "https://www.newstatesman.com/world/asia/2021/03/india-s-millennials-have-been-hit-hard-covid-recession",
+      "route": "/indian-millennials-hit-hard-covid",
+      "author": "Vivan Marwaha",
+      "date": "March 10, 2021"
+    },
+    {
+      "id": "hopes",
+      "title": "Hope and Anxiety Among Liberalization’s Children",
+      "summary": "In my field work across small-town India, one of the most glaring things that stands out to me is the high rate of unemployment. As I traveled to town after town during the 2018 Madhya Pradesh state elections, one sight had become eerily familiar to me: hordes of young and middle-aged people, mostly men, spending their time at public squares, seemingly unemployed and disengaged from economic activity.",
+      "link": "https://whatmillennialswant.blog/2020/01/02/hope-and-anxiety-among-liberalizations-children/",
+      "route": "/hope-and-anxiety-among-liberalizations-children",
+      "author": "Vivan Marwaha",
+      "date": "November 19, 2020"
+    },
+    {
+      "id": "millenialsformodi",
+      "title": "The secret behind millennial support for Prime Minister Modi",
+      "summary": "As the dust settles on India’s general elections, one thing has become clear: Despite a record-high unemployment rate, a slowing economy and widespread agrarian distress, Indians have overwhelmingly decided to give Prime Minister Narendra Modi and his Bharatiya Janata Party a second chance to put the country back on track.",
+      "link": "https://whatmillennialswant.blog/2019/05/30/the-secret-behind-millennial-support-for-prime-minister-modi/",
+      "route": "/the-secret-behind-millennial-support-for-india's-modi",
+      "author": "Vivan Marwaha",
+      "date": "May 24, 2019"
+    },
+    {
+      "id": "allaboutmodipersonality",
+      "title": "For Indian millennials, 2019 is going to be all about Modi’s personality not policy",
+      "summary": "Four years after Narendra Modi stormed the hustings with unprecedented support from first-time voters, there is much speculation about whether he has sustained his charm among the youth ahead of the upcoming 2019 general election.",
+      "link": "https://whatmillennialswant.blog/2019/12/28/demography-of-a-protest/",
+      "route": "/2019-is-all-about-modi's-personality",
+      "author": "Vivan Marwaha",
+      "date": "July 18, 2018"
+    }
+  ]
+}

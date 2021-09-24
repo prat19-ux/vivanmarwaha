@@ -1,0 +1,244 @@
+#wrapper {
+  justify-content: center;
+  grid-template-columns: repeat(2, 430px);
+  grid-template-rows: 750px 500px 65px min-content min-content;
+}
+#grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+#footer {
+  text-align: center;
+}
+#sub-heading {
+  font-family: "Unna";
+  font-weight: 100;
+  padding-top:0;
+  margin-top:-30px;
+  font-style: italic;
+  font-size: 1.15rem;
+}
+#footer-heading {
+  font-family: "Unna";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+}
+#grid-item {
+  padding-left:0;
+  padding-right:50px;
+  padding-top:10px;
+  padding-bottom: 50px; 
+}
+
+.split-left {
+  left:0;
+  width: 50%;
+}
+#recent-posts {
+  display: flex;
+}
+.split-right {
+  right:0;
+  width:50%;
+}
+#banner-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+#press-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+#section {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+#Title {
+  font-family: "Unna";
+  font-weight: bold;
+  font-size: 5rem;
+  padding-bottom: 10%;
+  font-style: italic;
+}
+
+.half {
+  width:50%;
+}
+#banner-heading {
+  font-family: "Unna";
+  font-size: 60px;
+  font-weight: bold;
+  font-style:italic;
+  
+  color: rgb(255, 203, 105);
+}
+#articlesWrapper {
+  grid-template-rows: 1fr;
+}
+
+#aboutContent {
+  margin-top: 150px;
+}
+
+#aboutText2 {
+  font-size: 20px;
+}
+
+#aboutWrapper {
+  grid-template-rows: 100px 50px 1fr;
+}
+
+#name {
+  margin-top: 100px;
+}
+
+#first {
+  font-size: 187px;
+}
+
+#last {
+  font-size: 110px;
+}
+
+#aboutSection {
+  grid-column: 1/3;
+  font-weight: 300;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+#latestArticle1 {
+  grid-template-rows: 0fr 50px 1fr;
+  display: inline-block;
+  width:100%;
+  grid-row: 3/4;
+  grid-column: 1/3;
+  
+}
+#latestArticle {
+  grid-template-rows: 1fr 50px 1fr;
+  display: inline-block;
+  width:50%;
+  grid-row: 3/4;
+  grid-column: 1/3;
+  
+}
+
+#ArticlesLabel1 {
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+@media screen and (max-width:720px) {
+
+  #footer-heading {
+    font-size: 2rem;
+  }
+  #sub-heading {
+    font-size: 0.75rem;
+    padding-top:10px;
+  }
+  .shown {
+    display: none;
+  }
+
+  .hidden {
+    display: block;
+  }
+  
+  #recent-posts {
+    display: block;
+  }
+  .split-right {
+    width: 100%;
+  }
+  .split-left {
+    width: 100%;
+  }
+  #grid-container {
+    display: block;
+  }
+  #grid-item {
+    padding:0;
+    margin-bottom:20px;
+  }
+}
+@media screen and (max-width: 1061px) {
+ 
+  #aboutSection {
+    grid-column: 1/2;
+  }
+
+  #wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 430px));
+    grid-template-rows: 600px 600px 700px 60px min-content min-content min-content;
+  }
+  #ArticlesLabel1 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+  }
+  #latestArticle {
+    grid-template-rows: 1fr 50px 1fr;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 350px));
+    grid-template-rows: 330px 480px 800px 60px min-content min-content min-content;
+  }
+  #articlesWrapper {
+    grid-template-rows: 130px 1fr;
+  }
+  #last {
+    font-size: 80px;
+  }
+  #first {
+    font-size: 167px;
+  }
+  #name {
+    margin-top: 0px;
+  }
+  #latestArticle {
+    grid-template-rows: 1fr 50px 1fr;
+  }
+  #aboutWrapper {
+    grid-template-rows: 100px 40px 1fr;
+  }
+  #aboutText2 {
+    font-size: 16px;
+  }
+  #aboutContent {
+    margin-top: 50px;
+  }
+}
+
+#flyoutMenu {
+  width: 400px;
+  height: 100vh;
+  background-color: #ffe600;
+  top: 0;
+  right: 2;
+  position: fixed !important;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  z-index: 500;
+}
+
+#flyoutMenu.hide {
+  transform: translate3d(120vw, 0, 0);
+}
+
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+}
