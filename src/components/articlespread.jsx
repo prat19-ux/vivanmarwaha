@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+
 import DateAuthorNoHighlight from "./dateauthornohighlight";
 
 const lineExtend = {
@@ -43,14 +43,25 @@ class ArticleSpread extends Component {
     title: this.props.title,
     desc: this.props.content,
     link: this.props.link,
-    route: this.props.route,
+    
     author: this.props.author,
     date: this.props.date,
   };
   render() {
     return (
       <div>
-        <Link to={this.props.route} style={{ textDecoration: "none" }}>
+         <motion.a
+          href={this.state.link}
+          target="_blank"
+          style={{
+            textDecoration: "none",
+            gridArea: "latestTopic",
+            color: "black",
+          }}
+          initial="rest"
+          whileHover="hover"
+          animate="rest"
+        >
           <motion.div
             style={{
               color: "black",
@@ -95,7 +106,7 @@ class ArticleSpread extends Component {
               {this.state.desc}
             </div>
           </motion.div>
-        </Link>
+        </motion.a>
         <div style={{ marginTop: 20 }}>
           <DateAuthorNoHighlight
             author={this.state.author}

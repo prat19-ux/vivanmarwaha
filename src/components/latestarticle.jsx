@@ -38,6 +38,7 @@ const textHighlight = {
 
 class LatestArticle extends Component {
   state = {
+    subheading:this.props.subheading,
     title: this.props.title,
     description: this.props.description,
     link: this.props.link,
@@ -100,6 +101,31 @@ class LatestArticle extends Component {
               {this.state.title}
               <motion.div
                 variants={lineExtend}
+                style={{
+                  position: "relative",
+                  backgroundColor: "black",
+                  width: 0,
+                  height: 1.2,
+                  top: 10,
+                }}
+              ></motion.div>
+            </motion.span>
+          </div>
+          <div style={{ width: "250px" }}>
+            <motion.span
+              
+              style={{
+                fontFamily: "Unna",
+                fontWeight: "bold",
+                fontStyle:"italic",
+                fontSize: 25,
+                top:20,
+                position: "relative",
+              }}
+            >
+              {this.state.subheading}
+              <motion.div
+                
                 style={{
                   position: "relative",
                   backgroundColor: "black",

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import headshot from "../photos/ColorHeadshot.png";
+import headshot from "../photos/New-headshot_trim.jpg";
 import SocialsVertical from "./socialsvertical";
 
 class AboutTitle extends Component {
@@ -10,7 +10,7 @@ class AboutTitle extends Component {
         style={{
           display: "grid",
           justifyContent: "center",
-          gridTemplateColumns: "50px 1fr",
+          gridTemplateColumns: "50px 1.5fr",
         }}
       >
         <div style={{ gridColumn: "1/2" }}>
@@ -22,7 +22,7 @@ class AboutTitle extends Component {
           style={{
             maxWidth: "100%",
             width: "auto",
-            gridColumn: "2/3",
+            
           }}
         />
       </div>

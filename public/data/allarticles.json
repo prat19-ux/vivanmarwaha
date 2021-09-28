@@ -1,6 +1,43 @@
 {
   "content": [
     {
+      "title":"The young, anxious Indian millennial",
+      "summary": "In 2018, I started conducting research for my book on the economic aspirations, social views, and political attitudes of Indian millennials. My mission was simple. I wanted to understand the views of those we didn’t hear much from. How do young Indians in the country’s small towns and cities view their place in India’s future?",
+      "link": "https://www.hindustantimes.com/opinion/the-young-anxious-indian-millennial-101631455163792.html",
+      "date":"Sep 12, 2021"
+    },
+    {
+        "title":"Excerpt | Millennials and the Political Arena: Anxiety as an Electoral Weapon",
+        "summary": "Excerpted with permission from What Millennials Want: Decoding the World’s Largest Generation, Vivan Marwaha, Penguin India. The biggest challenge that millennials face politically today is that they have been clubbed together with every other generation, and are not viewed as a unique, dynamic generation that faces its own set of opportunities and challenges.",
+        "link": "https://thewire.in/books/excerpt-millennials-and-the-political-arena-anxiety-as-an-electoral-weapon",
+        "date":"Sep 11, 2021"
+    },
+    {
+        "title":"Why India’s most aspirational generation — its millennials — is quickly becoming its most anxious one",
+        "summary": "It was November 2018 in Jabalpur, Madhya Pradesh. I was at the city’s famous Russel Chowk, talking to young people gathered there in the evening. Cars were honking and young men in bright polyester shirts with elaborately coiffed hair and multicoloured sunglasses were racing on their two-wheelers. The air, quickly cooling down, smelled of diesel and dust.",
+        "link": "https://www.thehindu.com/society/why-indias-most-aspirational-generation-its-millennials-is-quickly-becoming-its-most-anxious-one/article36267286.ece",
+        "date":"Sep 04, 2021"
+    },
+    {
+        "title": "Books: A millennial writes about millennials",
+        "summary": "Growing up, I remember the “our generation was different from yours” comment being thrown at me by my family. When I told my mom I’d have a love marriage, she would say, “Oh, in my time, I didn’t even have the guts to speak with boys in our school openly.” And when I spent my first internship paycheck taking my family for a dinner, my grandpa had said, “Your generation is imprudent, not saving money when required.",
+        "link": "https://www.hindustantimes.com/lifestyle/brunch/books-a-millennial-writes-about-millennials-101630771987066.html",
+        "date":"Sep 04, 2021"
+    },
+    {
+      "title":"Educated unemployment’: The crisis that defines millennials more than any other demographic",
+      "summary": "Eight hundred and fifty kilometres from Delhi is Jabalpur, a once-prosperous industrial town in Madhya Pradesh, home to a government ordnance factory. In the 1950s and 60s, it was one of central India’s most industrialised cities, home to a vibrant working class.",
+      "link": "https://scroll.in/article/1004225/educated-unemployment-the-crisis-that-defines-millennials-more-than-any-other-demographic",
+      "date":"Sep 01, 2021"
+
+    },
+    {
+      "title": "What do millennials want? Vivan Marwaha’s debut work of non-fiction tries to decode a generation’s prospects",
+      "summary": "Globally, millennials are a contradictory and fascinating bunch – known as much for their love for authenticity as avocados. In India, they constitute a whopping 440 million people, born between 1981 and 1996, making them the largest group of millennials on the planet. And according to Vivan Marwaha’s book, What Millennials Want, this generation – the one that came of age in post-liberalization India, that grew up with Doordarshan and",
+      "link": "https://www.gqindia.com/get-smart/content/what-do-millennials-want-vivan-marwaha",
+      "date":"Aug 30, 2021"
+    },
+    {
       "id": "hithardbycovid",
       "title": "India’s millennials have been hit hard by the Covid recession",
       "summary": "An unemployment crisis is crushing the country’s growth. Last August, Indore, a bustling city of two million people in India’s Madhya Pradesh state, earned the title of the country’s cleanest city for the fourth consecutive year...",

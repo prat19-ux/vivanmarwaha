@@ -1,7 +1,20 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
 import DateAuthorNoHighlight from "./dateauthornohighlight";
-
+const lineExtend = {
+    rest: {
+      width: 0,
+      transition: {
+        duration: 1,
+      },
+    },
+    hover: {
+      width: 120,
+      transition: {
+        duration: 1,
+      },
+    },
+  };
 const textHighlight = {
   rest: {
     transition: {
@@ -22,7 +35,7 @@ const textHighlight = {
   },
 };
 
-class LatestPress extends Component {
+class LatestPressOther extends Component {
   state = {
     title:this.props.title,
     subheading:this.props.subheading,
@@ -56,8 +69,9 @@ class LatestPress extends Component {
             <div style={{ width: "250px" }}>
             <motion.span
              variants={textHighlight}
+             
               style={{
-               
+              
                 fontFamily: "Unna",
                 fontStyle:"italic",
                 fontWeight: "bold",
@@ -67,7 +81,7 @@ class LatestPress extends Component {
             >
               {this.state.title}
               <motion.div
-               
+                variants={lineExtend}
                 style={{
                   position: "relative",
                   backgroundColor: "black",
@@ -79,37 +93,7 @@ class LatestPress extends Component {
               ></motion.div>
             </motion.span>
           </div>
-
-          <div style={{ width: "250px" }}>
-            <motion.span
-              style={{
-               
-                fontFamily: "Unna",
-                fontStyle:"italic",
-                fontWeight: "100",
-                top:20,
-                
-                textAlign:"left",
-                fontSize: 22.5,
-                position: "relative",
-              }}
-            >
-              {this.state.subheading}
-              <motion.div
-               
-                style={{
-                  position: "relative",
-                  backgroundColor: "black",
-                  width: 0,
                   
-                  marginBottom:"30px",
-                  height: "fit-content",
-                  top: 10,
-                }}
-              ></motion.div>
-            </motion.span>
-          </div>
-        
           <div
             style={{
               position: "relative",
@@ -134,4 +118,4 @@ class LatestPress extends Component {
   }
 }
 
-export default LatestPress;
+export default LatestPressOther;

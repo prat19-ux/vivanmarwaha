@@ -27,18 +27,30 @@ class BookAlert extends Component {
               <div className="text" id="book-alert-title">
                 What Millenials Want
               </div>
-              <div className="seperator" style={{ width: 310 }}></div>
-              <div id="book-alert-date" className="text">
-                Available August 30th
+              <div className="seperator" style={{ width: "40vw" }}></div>
+             
+              <h3 style={{fontFamily:"Unna", fontWeight:"bold",fontStyle:"italic",fontSize:"2vw",paddingLeft:"1vw",paddingRight:"10vw"}}>Now available at every major bookstore near you</h3>
+              <a href="https://www.amazon.in/What-Millennials-Want-Decoding-Generation/dp/0670092851/">
+              <div id="book-alert-date" style={{marginBottom:"10px"}}className="text">
+                Buy On Amazon
               </div>
+              </a>
+              <a href="https://www.flipkart.com/what-millennials-want/p/itm8daed77d72778"> 
+              <div id="book-alert-date"  style={{marginBottom:"10px"}} className="text">
+                Buy on Flipkart
+              </div>
+              </a>
+             
             </div>
             <a
               rel="noopener noreferrer"
               target="_blank"
+             
               href="https://www.amazon.in/What-Millennials-Want-Decoding-Generation/dp/0670092851/ref=sr_1_1?crid=1HRHV9I4CNQ7B&dchild=1&keywords=what+millennials+want&qid=1627555657&sprefix=what+mille,aps,-1&sr=8-1"
             >
               <img
                 id="book-alert-image"
+                style={{maxWidth:"80%", maxHeight:"80%", marginRight:"-10%"}}
                 src="/book.png"
                 alt="What Millenials Want - book"
               />

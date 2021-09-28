@@ -37,6 +37,7 @@ class App extends Component {
     const latestarticle = this.state.Data.featured.map((check) => (
       <LatestArticle
         title={check.title}
+        subheading = {check.subheading}
         description={check.summary}
         link={check.link}
         key={"article"}
@@ -54,11 +55,21 @@ class App extends Component {
           style={{
             display: "grid",
             gridColumnGap: 200,
+
           }}
         >
+         
           <div id="name">{nameintro}</div>
-          <div>{latestarticle}</div>
-          <div id="aboutSection">{aboutsection}</div>
+         
+          
+          <div style={{
+            marginTop:"auto",
+            marginBottom:"auto"
+            
+          }}>{latestarticle}</div> 
+          
+          <div id="aboutSection">{aboutsection}</div> 
+          
           <div
             style={{
               height: 20,
@@ -97,8 +108,11 @@ class App extends Component {
               </div>
             ))}
           </React.Fragment>
+         
           <CreditTab />
+          
         </div>
+        
       </div>
     );
   }
