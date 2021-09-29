@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import NavComplete from "../components/navcomplete";
 import AboutTitle from "../components/abouttitle";
-import AboutPageText from "../components/aboutpagetext";
-import InstagramButton from "../components/socials/instagrambutton";
-import TwitterButton from "../components/socials/twitterbutton";
-import FacebookButton from "../components/socials/facebookbutton";
 import { initGA, PageView } from "../components/tracking/index";
 
 class AboutPage extends Component {
@@ -23,9 +19,7 @@ class AboutPage extends Component {
       });
   };
   render() {
-    const abouttext = this.state.Data.content.map((check) => (
-      <AboutPageText desc={check.summary} key="about" />
-    ));
+
     return (
       <div id="aboutwrapper">
         <NavComplete />
