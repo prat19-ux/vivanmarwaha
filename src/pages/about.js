@@ -40,7 +40,7 @@ class AboutPage extends Component {
           <div>
             <AboutTitle />
           </div>
-          <div id="aboutpagetext" style={{fontFamily:"Roboto"}}>I am a user researcher and the author of What Millennials Want (Penguin Random House), an intimate biography of Indian millennials, the world’s single-largest demographic group. My book has been endorsed by Shashi Tharoor, Aaditya Thackeray, Sanjeev Bikhchandani, and Lisa Ray.
+          <div id="aboutpagetext" style={{fontFamily:"Roboto",fontSize:"1.25rem", lineHeight:"2rem"}}>I am a user researcher and the author of What Millennials Want (Penguin Random House), an intimate biography of Indian millennials, the world’s single-largest demographic group. My book has been endorsed by Shashi Tharoor, Aaditya Thackeray, Sanjeev Bikhchandani, and Lisa Ray.
           <br></br> <br></br>I traveled more than 30,000 kilometers across 13 Indian states to interview more than 900 millennials, educators, business leaders, and policymakers to investigate the economic aspirations, social views, and political attitudes of young India for my book.
           <br></br> <br></br>I work on building technology products for emerging markets and have contributed op-eds to The Washington Post, New Statesman, The Times of India, Mint, and The Print, and have been featured in the Financial Times and The Guardian.
           <br></br><br></br>
