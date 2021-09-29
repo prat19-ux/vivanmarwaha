@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import NavComplete from "../components/navcomplete";
 import AboutTitle from "../components/abouttitle";
 import AboutPageText from "../components/aboutpagetext";
-
+import InstagramButton from "../components/socials/instagrambutton";
+import TwitterButton from "../components/socials/twitterbutton";
+import FacebookButton from "../components/socials/facebookbutton";
 import { initGA, PageView } from "../components/tracking/index";
 
 class AboutPage extends Component {
@@ -44,7 +46,14 @@ class AboutPage extends Component {
           <div>
             <AboutTitle />
           </div>
-          <div id="aboutpagetext">{abouttext}</div>
+          <div id="aboutpagetext">I am a user researcher and the author of What Millennials Want (Penguin Random House), an intimate biography of Indian millennials, the world’s single-largest demographic group. My book has been endorsed by Shashi Tharoor, Aaditya Thackeray, Sanjeev Bikhchandani, and Lisa Ray.
+          <br></br> <br></br>I traveled more than 30,000 kilometers across 13 Indian states to interview more than 900 millennials, educators, business leaders, and policymakers to investigate the economic aspirations, social views, and political attitudes of young India for my book.
+          <br></br> <br></br>I work on building technology products for emerging markets and have contributed op-eds to The Washington Post, New Statesman, The Times of India, Mint, and The Print, and have been featured in the Financial Times and The Guardian.
+          <br></br><br></br>
+          Twitter : 
+       <a style={{fontWeight:"bold",color:"black"}}href="https://twitter.com/VivanMarwaha"> @VivanMarwaha </a>
+       <br></br>Instagram  <a style={{fontWeight:"bold",color:"black"}} href="https://www.instagram.com/vivanmarwaha/">@VivanMarwaha</a><br></br>Email : <a href="mailto:vivan.marwaha@gmail.com" style={{fontWeight:"bold",color:"black"}}>vivan.marwaha@gmail.com</a>
+      </div>
         </div>
         <div
           style={{

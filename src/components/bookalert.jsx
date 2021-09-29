@@ -29,7 +29,7 @@ class BookAlert extends Component {
               </div>
               <div className="seperator" style={{ width: "40vw" }}></div>
              
-              <h3 style={{fontFamily:"Unna", fontWeight:"bold",fontStyle:"italic",fontSize:"2vw",paddingLeft:"1vw",paddingRight:"10vw"}}>Now available at every major bookstore near you</h3>
+              <h3 id="book-heading" style={{fontFamily:"Unna", fontWeight:"bold",fontStyle:"italic",paddingLeft:"1vw",paddingRight:"10vw"}}>Now available at every major bookstore near you</h3>
               <a href="https://www.amazon.in/What-Millennials-Want-Decoding-Generation/dp/0670092851/">
               <div id="book-alert-date" style={{marginBottom:"10px"}}className="text">
                 Buy On Amazon

@@ -71,38 +71,14 @@ a {
 #hidden {
   display: none;
 }
-/* @media screen and (min-width:376px) and (max-width: 720px) {
-  #hidden {
-    display: block;
-  }
-  #shown {
-    display: none;
-  }
-  #book-alert-content {
-    display: block;
-    text-align: center;
-  }
-  #book-alert-title-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-  }
-  #book-alert-image {
-    width: 25vw;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
+#book-heading {
+  font-size: 2vw;
 }
-
-@media screen and (max-width:375px) {
-  #book-alert-content {
-    display: block;
+@media screen and (max-width: 720px) {
+  #book-heading {
+    font-size: 4vw;
   }
- 
-  #book-alert-image {
-    width: 20vw;
-    height: auto;
+  #book-alert-date {
+    font-size: 3.5vw;
   }
-
-} */
+}
