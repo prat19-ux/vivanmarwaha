@@ -5,6 +5,7 @@ import { initGA, PageView } from "../components/tracking/index";
 import hindu from "../photos/hindu-sunday.jpeg";
 import hindustantimes from "../photos/hindustan-times.jpg";
 import pdf from "../photos/0001.jpg";
+import image from "../photos/img.jpg"
 
 class Press extends Component {
   state = {
@@ -52,10 +53,15 @@ class Press extends Component {
             </React.Fragment>
             </div>
             <div class="split-right">
-            
+           
+           
+              <iframe width="500" height="300" src="https://www.youtube.com/embed/Fbf32fTJT9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       
               <img src={hindu} alt="Hello" id="press-image"></img>
               <img src={hindustantimes} alt="Hello" id="press-image"></img>
               <img src={pdf} alt="Hello" id="press-image"></img>
+              <img src={image} alt="Hello" id="press-image"></img>
             </div>
            
           </div>

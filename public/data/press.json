@@ -1,6 +1,20 @@
 {
     "content" : [
         {
+            "title":"BBC Viewpoint",
+            "subheading": "Viewpoint: Why India's millennials support PM Narendra Modi",
+            "summary": "India has one of the world's youngest populations, with millennials - those born between 1981 and 1996 - making up over 400 million of its people. Author Vivan Marwaha considers what India's youth want from their politicians.",
+            "link": "https://www.bbc.com/news/world-asia-india-58716947",
+            "date":"Oct 04, 2021"
+        },
+        {
+            "title":"Hindustan Op-Ed",
+            "subheading": "बचाव की मुद्रा में नौजवान ",
+            "summary": "साल 2018 में मैंने अपनी किताब के लिए आज के नौजवानों की आर्थिक आकांक्षाओं, उनके सामाजिक विचार और राजनीतिक नजरिये पर शोध करना शुरू किया। मेरा मकसद साफ था। मैं उन लोगों को समझना चाहता था, जिनको हमने बहुत ज्यादा नहीं सुना है। आखिर देश के छोटे कस्बों और  शहरों में रहने वाले युवा भारत के भविष्य में अपनी जगह कहां देखते हैं?",
+            "link": "https://www.livehindustan.com/blog/story-hindustan-opinion-column-15-september-2021-4586641.html",
+            "date":"Sept 14, 2021"
+        },
+        {
             "title":"Hindustan Times Op-Ed",
             "subheading":"The young, anxious Indian millennial",
             "summary": "In 2018, I started conducting research for my book on the economic aspirations, social views, and political attitudes of Indian millennials. My mission was simple. ",
