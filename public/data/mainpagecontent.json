@@ -6,13 +6,14 @@
   ],
 
   "featured": [
-    {
-      "title":"Hindustan Times Op-Ed",
-      "subheading":"The young, anxious Indian millennial",
-      "summary": "Economic insecurity, in the form of lack of stable, decently paid jobs, is driving the young to search for stability in their social and political lives",
-      "link": "https://www.hindustantimes.com/opinion/the-young-anxious-indian-millennial-101631455163792.html",
-      "date":"Sep 12, 2021"
-  }
+  
+  {
+    "title":"BusniessLine Book Review",
+    "subheading": "A generation caught at the cusp of India’s transformation",
+    "summary": "What Millennials Want is a surprisingly pessimistic reminder of how little India has changed",
+    "link": "https://www.thehindubusinessline.com/books/reviews/General/a-generation-caught-at-the-cusp-of-indias-transformation/article37149575.ece",
+    "date":"Oct 24, 2021"
+}
   ],
 
   "about": [
@@ -23,33 +24,33 @@
 
   "articles": [
     {
+      "title":"BusniessLine Book Review",
+      "subheading": "A generation caught at the cusp of India’s transformation",
+      "summary": "What Millennials Want is a surprisingly pessimistic reminder of how little India has changed",
+      "link": "https://www.thehindubusinessline.com/books/reviews/General/a-generation-caught-at-the-cusp-of-indias-transformation/article37149575.ece",
+      "date":"Oct 24, 2021"
+  },
+  {
+      "title":"BBC Viewpoint",
+      "subheading": "Viewpoint: Why India's millennials support PM Narendra Modi",
+      "summary": "India has one of the world's youngest populations, with millennials - those born between 1981 and 1996 - making up over 400 million of its people. Author Vivan Marwaha considers what India's youth want from their politicians.",
+      "link": "https://www.bbc.com/news/world-asia-india-58716947",
+      "date":"Oct 04, 2021"
+  },
+  
+  {
+      "title":"Hindustan Op-Ed",
+      "subheading": "बचाव की मुद्रा में नौजवान ",
+      "summary": "साल 2018 में मैंने अपनी किताब के लिए आज के नौजवानों की आर्थिक आकांक्षाओं, उनके सामाजिक विचार और राजनीतिक नजरिये पर शोध करना शुरू किया। मेरा मकसद साफ था। मैं उन लोगों को समझना चाहता था, जिनको हमने बहुत ज्यादा नहीं सुना है। आखिर देश के छोटे कस्बों और  शहरों में रहने वाले युवा भारत के भविष्य में अपनी जगह कहां देखते हैं?",
+      "link": "https://www.livehindustan.com/blog/story-hindustan-opinion-column-15-september-2021-4586641.html",
+      "date":"Sept 14, 2021"
+  },
+  {
       "title":"Hindustan Times Op-Ed",
       "subheading":"The young, anxious Indian millennial",
-      "summary": "In 2018, I started conducting research for my book on the economic aspirations, social views, and political attitudes of Indian millennials. My mission was simple. I wanted to understand the views of those we didn’t hear much from. How do young Indians in the country’s small towns and cities view their place in India’s future?",
+      "summary": "In 2018, I started conducting research for my book on the economic aspirations, social views, and political attitudes of Indian millennials. My mission was simple. ",
       "link": "https://www.hindustantimes.com/opinion/the-young-anxious-indian-millennial-101631455163792.html",
       "date":"Sep 12, 2021"
-  },
-  {
-      "title":"Excerpt in The Wire",
-      "subheading":"Excerpt | Millennials and the Political Arena: Anxiety as an Electoral Weapon",
-      "summary": "Excerpted with permission from What Millennials Want: Decoding the World’s Largest Generation, Vivan Marwaha, Penguin India. The biggest challenge that millennials face politically today is that they have been clubbed together with every other generation, and are not viewed as a unique, dynamic generation that faces its own set of opportunities and challenges.",
-      "link": "https://thewire.in/books/excerpt-millennials-and-the-political-arena-anxiety-as-an-electoral-weapon",
-      "date":"Sep 11, 2021"
-  },
-  {
-      "title":"Hindu Magazine Cover Story",
-      "subheading":"Why India’s most aspirational generation — its millennials — is quickly becoming its most anxious one",
-      "summary": "It was November 2018 in Jabalpur, Madhya Pradesh. I was at the city’s famous Russel Chowk, talking to young people gathered there in the evening. Cars were honking and young men in bright polyester shirts with elaborately coiffed hair and multicoloured sunglasses were racing on their two-wheelers. The air, quickly cooling down, smelled of diesel and dust.",
-      "link": "https://www.thehindu.com/society/why-indias-most-aspirational-generation-its-millennials-is-quickly-becoming-its-most-anxious-one/article36267286.ece",
-      "date":"Sep 04, 2021"
-  },
-  {
-    "title": "Hindustan Times Brunch Profile",
-    "subheading": "Books: A millennial writes about millennials",
-    "summary": "Growing up, I remember the “our generation was different from yours” comment being thrown at me by my family. When I told my mom I’d have a love marriage, she would say, “Oh, in my time, I didn’t even have the guts to speak with boys in our school openly.” And when I spent my first internship paycheck taking my family for a dinner, my grandpa had said, “Your generation is imprudent, not saving money when required.",
-    "link": "https://www.hindustantimes.com/lifestyle/brunch/books-a-millennial-writes-about-millennials-101630771987066.html",
-    "date":"Sep 04, 2021"
-
   }
 
   ]
