@@ -7,13 +7,13 @@
 
   "featured": [
   
-  {
-    "title":"BusniessLine Book Review",
-    "subheading": "A generation caught at the cusp of India’s transformation",
-    "summary": "What Millennials Want is a surprisingly pessimistic reminder of how little India has changed",
-    "link": "https://www.thehindubusinessline.com/books/reviews/General/a-generation-caught-at-the-cusp-of-indias-transformation/article37149575.ece",
-    "date":"Oct 24, 2021"
-}
+    {
+      "title":"The Times of India",
+      "subheading": "Millennials prefer arranged marriages as they can’t afford to fall in love",
+      "summary": "Much has been said about the Indian millenials — from a penchant for avocado toast to their entrepreneurial aspirations. But what unites the generation is the financial insecurity they feel, argues writer and user researcher Vivan Marwaha.",
+      "link": "https://timesofindia.indiatimes.com/home/sunday-times/all-that-matters/millennials-prefer-arranged-marriages-as-they-cant-afford-to-fall-in-love-says-writer-vivan-marwaha/articleshow/87558533.cms",
+      "date":"Nov 7, 2021"
+  }
   ],
 
   "about": [
@@ -24,7 +24,14 @@
 
   "articles": [
     {
-      "title":"BusniessLine Book Review",
+      "title":"The Times of India",
+      "subheading": "Millennials prefer arranged marriages as they can’t afford to fall in love",
+      "summary": "Much has been said about the Indian millenials — from a penchant for avocado toast to their entrepreneurial aspirations. But what unites the generation is the financial insecurity they feel, argues writer and user researcher Vivan Marwaha.",
+      "link": "https://timesofindia.indiatimes.com/home/sunday-times/all-that-matters/millennials-prefer-arranged-marriages-as-they-cant-afford-to-fall-in-love-says-writer-vivan-marwaha/articleshow/87558533.cms",
+      "date":"Nov 7, 2021"
+  },
+    {
+      "title":"BusinessLine Book Review",
       "subheading": "A generation caught at the cusp of India’s transformation",
       "summary": "What Millennials Want is a surprisingly pessimistic reminder of how little India has changed",
       "link": "https://www.thehindubusinessline.com/books/reviews/General/a-generation-caught-at-the-cusp-of-indias-transformation/article37149575.ece",
@@ -44,14 +51,6 @@
       "summary": "साल 2018 में मैंने अपनी किताब के लिए आज के नौजवानों की आर्थिक आकांक्षाओं, उनके सामाजिक विचार और राजनीतिक नजरिये पर शोध करना शुरू किया। मेरा मकसद साफ था। मैं उन लोगों को समझना चाहता था, जिनको हमने बहुत ज्यादा नहीं सुना है। आखिर देश के छोटे कस्बों और  शहरों में रहने वाले युवा भारत के भविष्य में अपनी जगह कहां देखते हैं?",
       "link": "https://www.livehindustan.com/blog/story-hindustan-opinion-column-15-september-2021-4586641.html",
       "date":"Sept 14, 2021"
-  },
-  {
-      "title":"Hindustan Times Op-Ed",
-      "subheading":"The young, anxious Indian millennial",
-      "summary": "In 2018, I started conducting research for my book on the economic aspirations, social views, and political attitudes of Indian millennials. My mission was simple. ",
-      "link": "https://www.hindustantimes.com/opinion/the-young-anxious-indian-millennial-101631455163792.html",
-      "date":"Sep 12, 2021"
   }
-
   ]
 }
