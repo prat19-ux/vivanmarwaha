@@ -7,10 +7,8 @@ import hindustantimes from "../photos/hindustan-times.jpg";
 import pdf from "../photos/0001.jpg";
 import image from "../photos/img.jpg"
 import new_img from "../photos/new_shot.png"
-import images from ".../photos/images.jpeg"
-import photo from "..photos/Author's 1.jpg"
-import thing from "..photos/001.jpg"
-
+import images from "../photos/images.jpeg"
+import photo from "../photos/photothing.jpg"
 class Press extends Component {
   state = {
     Data: {
@@ -61,14 +59,12 @@ class Press extends Component {
            
             <img src= {new_img} alt="Hello" id="press-image"></img>
               <iframe width="500" height="300" src="https://www.youtube.com/embed/Fbf32fTJT9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-              <img src={hindu} alt="Hello" id="press-image"></img>
+              <img src={images} alt="Hello" id="press-image"></img>
+              <img src={photo} alt="Hello" id="press-image"></img>              <img src={hindu} alt="Hello" id="press-image"></img>
               <img src={hindustantimes} alt="Hello" id="press-image"></img>
               <img src={pdf} alt="Hello" id="press-image"></img>
               <img src={image} alt="Hello" id="press-image"></img>
-              <img src={images} alt="Hello" id="press-image"></img>
-              <img src={photo} alt="Hello" id="press-image"></img>
-              <img src={thing} alt="Hello" id="press-image"></img>
+             
              
             </div>
            
