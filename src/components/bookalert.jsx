@@ -25,7 +25,7 @@ class BookAlert extends Component {
           <div id="book-alert-content">
             <div id="book-alert-title-wrapper">
               <div className="text" id="book-alert-title">
-                What Millenials Want
+                What Millennials Want
               </div>
               <div className="seperator" style={{ width: "40vw" }}></div>
              
