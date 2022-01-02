@@ -7,6 +7,9 @@ import hindustantimes from "../photos/hindustan-times.jpg";
 import pdf from "../photos/0001.jpg";
 import image from "../photos/img.jpg"
 import new_img from "../photos/new_shot.png"
+import images from ".../photos/images.jpeg"
+import photo from "..photos/Author's 1.jpg"
+import thing from "..photos/001.jpg"
 
 class Press extends Component {
   state = {
@@ -63,6 +66,9 @@ class Press extends Component {
               <img src={hindustantimes} alt="Hello" id="press-image"></img>
               <img src={pdf} alt="Hello" id="press-image"></img>
               <img src={image} alt="Hello" id="press-image"></img>
+              <img src={images} alt="Hello" id="press-image"></img>
+              <img src={photo} alt="Hello" id="press-image"></img>
+              <img src={thing} alt="Hello" id="press-image"></img>
              
             </div>
            
